@@ -1,0 +1,22 @@
+{
+  "name": "bharat-id-generator",
+  "version": "1.0.0",
+  "description": "A timestamp based sequencer id generator",
+  "keywords": [
+    "bharat",
+    "id",
+    "generator",
+    "node-js"
+  ],
+  "license": "ISC",
+  "author": "Bharat Paliwal",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start" : "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "nanoid": "^5.0.9"
+  }
+}
